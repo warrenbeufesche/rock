@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- The Odin Project, by Warren Beufesche 12/10/2022 -->  
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rock Papper Scissors</title>
+  <link rel='stylesheet' href='style.css'>
+  <script type='text/javascript' src='rock.js' defer></script>
 </head>
+
 <body>
-  <script type="text/javascript" src="rock.js"></script>
-  <h1>Rock Paper Scissors</h1>
-  <p>This is a game.</p>
-  
+  <div class='header-section'>
+    <h1 class='game_title'>Rock Paper Scissors</h1>
+  </div>
+
+  <div class='scoreboard-section'>
+    <h2>ScoreBoard</h2>  
+    <div class='labels'>
+      <span class ='label'>Player Scores</span>
+      <span class ='label'>Computer Scores</span>
+    </div>
+    <div class='scores'>
+      <span class = 'score' id='player_score'>0</span>
+      <span class = 'score' id='computer_score'>0</span>
+    </div>
+    <div class='results'>
+      <p id='result_text'></p>
+    </div>
+  </div>
+
+  <div class='choices-section'>
+    <div class='choices-buttons'> 
+      <button class='button' id='rockBtn'>ROCK</button>
+      <button class='button' id='paperBtn'>PAPER</button>
+      <button class='button'  id='scissorsBtn'>SCISSORS</button>
+    </div>
+    <div>
+      <button class='button' id='resetBtn'>New Game</button>
+    </div>
+  </div>
 </body>
 </html>

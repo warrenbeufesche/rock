@@ -1,2 +1,2 @@
 # rock
-Project: Rock Paper Scissors
+The Odin Project, Foundations Course, Project: Rock Paper Scissors

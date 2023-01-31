@@ -1,0 +1,76 @@
+/* style.css */
+/* In CSS, comments cannot be // */
+
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: blanchedalmond;
+}
+
+.header-section {
+  height: 50px;
+  text-align: center;
+}
+
+/* scoreboard-section */
+.scoreboard-section {
+  text-align: center;
+  height: 170px;
+}
+
+.labels {
+  height: 50px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.score {
+  border: 2px solid rgb(147, 84, 84);
+  border-radius: 5px;
+  font-weight: bold;
+  height: 30px;
+  width: 50px;
+  padding: 10px 50px;
+  margin: 5px 30px;
+}
+
+.results {
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+}
+
+#result_text {
+  border: 2px solid rgb(147, 84, 84);
+  border-radius: 5px;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
+}
+
+/* choices-section */
+.choices-section {
+  text-align: center;
+  height: 100px;
+}
+
+.button {
+  width: 90px;
+  border: 2px solid rgb(147, 84, 84);
+  background-color: rgb(183, 148, 148);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.choices-buttons {
+  height: 40px;
+  padding: 10px;
+  margin: 30px 10px 0px 20px;
+}
